@@ -14,8 +14,8 @@ import os
 class_names = ["combat", "destroyedbuilding", "fire", "militaryvehicles", "humanitarianaid"]
 
 # data directories
-train_dir = r"D:\Task_2B\training"  # Path to your training data
-test_dir = r"D:\Task_2B\testing"  # Path to your test data
+train_dir = r"D:\Task_2B\training" 
+test_dir = r"D:\Task_2B\testing" 
 
 # data preprocessing and augmentation
 train_datagen = ImageDataGenerator(
